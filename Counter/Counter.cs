@@ -11,13 +11,11 @@ namespace Counter
         {
             
             int value = 0;
-            int counter = 0;
 
             // ökar räknaren med ett
             public void Increment()
             {
-               counter++;
-               value = counter;
+                value++;
             }
 
             // återställer värdet till noll
